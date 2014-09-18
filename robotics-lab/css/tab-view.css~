@@ -1,0 +1,114 @@
+html, body { margin: 0px; padding: 0px; }
+
+div.TabView
+{
+  font-family: Bookman Old Style;
+  font-size:   13px;
+  text-align: center;
+  
+}
+/* ***** Tabs *************************************************************** */
+
+div.TabView div.Tabs
+{
+  height: 18px;
+  background-color:#227065 repeat-x 1px 40px;
+}
+
+div.TabView div.Tabs a
+{
+  display: outline-block;
+  float:    left;
+  margin-right: 1px;
+  width: 150px;
+  text-align: center;
+  height:      40px;
+  line-height:36px;
+  vertical-align: middle;
+  background-color:#227065; no-repeat 0px   0px;
+  text-decoration: none;
+  font-weight: 60;
+  color:   #FAFCFC;
+  cursor:  pointer;
+}
+div.TabView div.Tabs a:hover
+{
+   background-color:#781E05
+}
+div.TabView div.Tabs a.Current,
+div.TabView div.Tabs a.Current:hover
+{
+  margin-top: 0px;
+  height:     45px;
+  background-color:#781E05 no-repeat 0px   0px;
+  cursor:  default;
+}
+/* ***** Pages ************************************************************** */
+div.TabView div.Pages
+{
+  clear: both;
+  border: 1px solid #404040;
+  border-top: yes;
+  background: #FCFCFC;
+}
+div.TabView div.Pages                  { overflow: hidden; }
+div.TabView div.Pages div.Page         { overflow:   auto; }
+div.TabView div.Pages div.Page div.Pad { padding: 7px 7px; }
+
+
+
+/* ***** TabView2 Tabs *************************************************************** */
+div.TabView2
+{
+  font-family: Bookman Old Style;
+  font-size:   13px;
+  text-align: center;
+  
+}
+/* ***** Tabs *************************************************************** */
+
+div.TabView2 div.Tabs
+{
+  height: 18px;
+  background-color:#3399FF repeat-x 1px 40px;
+}
+
+div.TabView2 div.Tabs a
+{
+  display: outline-block;
+  float:    left;
+  margin-right: 1px;
+  width: 100px;
+  text-align: center;
+  height:      40px;
+  line-height:36px;
+  vertical-align: middle;
+  background-color:#33CC33; no-repeat 0px   0px;
+  text-decoration: none;
+  font-weight: 60;
+  color:   #FAFCFC;
+  cursor:  pointer;
+}
+div.TabView2 div.Tabs a:hover
+{
+   background-color:#33CC33
+}
+div.TabView div.Tabs a.Current,
+div.TabView div.Tabs a.Current:hover
+{
+  margin-top: 0px;
+  height:     45px;
+  background-color:#33FF00 no-repeat 0px   0px;
+  cursor:  default;
+}
+/* ***** Pages ************************************************************** */
+div.TabView2 div.Pages
+{
+  clear: both;
+  border: 1px solid #404040;
+  border-top: yes;
+  background: #FCFCFC;
+}
+div.TabView2 div.Pages                  { overflow: hidden; }
+div.TabView2 div.Pages div.Page         { overflow:   auto; }
+div.TabView2 div.Pages div.Page div.Pad { padding: 7px 7px; }
